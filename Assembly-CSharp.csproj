@@ -71,10 +71,14 @@
      <Compile Include="Assets\Scripts\PlayerScripts\Health\Healthbar.cs" />
      <Compile Include="Assets\Scripts\PlayerScripts\PlayerAttack.cs" />
      <Compile Include="Assets\Scripts\PlayerScripts\PlayerMovement.cs" />
-     <Compile Include="Assets\Scripts\Rooms\Door.cs" />
-     <Compile Include="Assets\Scripts\Rooms\LevelGenerator\LevelGenerator.cs" />
+     <Compile Include="Assets\Scripts\Rooms\Doors\Door.cs" />
+     <Compile Include="Assets\Scripts\Rooms\Doors\DoorController.cs" />
+     <Compile Include="Assets\Scripts\Rooms\LevelGenerator\RoomCrawler.cs" />
+     <Compile Include="Assets\Scripts\Rooms\LevelGenerator\RoomCrawlerController.cs" />
+     <Compile Include="Assets\Scripts\Rooms\LevelGenerator\StageGenerationData.cs" />
+     <Compile Include="Assets\Scripts\Rooms\LevelGenerator\StageGenerator.cs" />
      <Compile Include="Assets\Scripts\Rooms\Room.cs" />
-     <Compile Include="Assets\Scripts\Rooms\RoomController.cs" />
+     <Compile Include="Assets\Scripts\Rooms\StageController.cs" />
      <None Include="Assets\Visual\Knight Files\Read Me.txt" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
